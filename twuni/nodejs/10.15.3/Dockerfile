@@ -28,7 +28,7 @@ RUN set -e;\
   rm -vfR "/opt/aws-cli/awscli-bundle";
 
 
-ENV NODEJS_VERSION=12.1.0
+ENV NODEJS_VERSION=10.15.3
 
 RUN set -e;\
   NODEJS_ARCHIVE_FILE="$(mktemp nodejs-XXXXX.tar.xz)";\
